@@ -269,6 +269,47 @@ button:hover {
     line-height: 25px;
 }
 
+/*Carpany*/
+.carpany h1{
+    color: var(--red);
+    text-align: left;
+    font-size: 28px;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.carpany h2{
+    color: var(--red);
+    text-align: left;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.carpany p{
+    color: var(--dark);
+    text-align: left;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 25px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 20px;
+}
+
+.carpany img{
+    justify-content: center;
+    align-items: center;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 40px;
+}
+
 /*Footer*/
 .footer {
     position: absolute;
