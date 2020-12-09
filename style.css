@@ -65,6 +65,7 @@ button:hover {
     list-style: none;
     overflow: hidden;
     background-color: var(--white);
+    
   }
   
   .header li a {
@@ -289,6 +290,14 @@ button:hover {
     padding-left: 35px;
     padding-right: 35px;
 }
+.carpany h3{
+    color: var(--red);
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: -10px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
 
 .carpany p{
     color: var(--dark);
@@ -303,6 +312,14 @@ button:hover {
 }
 
 .carpany img{
+    justify-content: center;
+    align-items: center;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 20px;
+}
+
+.carpany video{
     justify-content: center;
     align-items: center;
     padding-left: 35px;
