@@ -186,6 +186,7 @@ button:hover {
     .om{
     margin: 10px;
     padding: 14px 17px;
+    margin-bottom: 16px;
 }
 
 /*Projekter*/
@@ -201,6 +202,8 @@ button:hover {
     margin-left: 2%;
     margin-right: 2%;
 }
+
+
 
 .lucas {
     position: relative;
@@ -239,43 +242,106 @@ button:hover {
     transform: translate(-50%, -50%);
     text-align: center;
   }
-  
+
+/*Fotos*/
+  .fotos{
+    background-color: var(--grey);
+  }
+  .fotos h1{
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  .andreas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 60px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+
+  .us{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 60px;
+    padding-bottom: 50px;
+  }
 
 
-
+/*Brødkrumme*/
+ul.breadcrumb {
+    padding: 0px 10px;
+    list-style: none;
+  }
+  ul.breadcrumb li {
+    display: inline;
+  }
+  ul.breadcrumb li a {
+    color: var(--red);
+    text-decoration: none;
+    font-size: 14px;
+  }
+  .pil {
+    border: solid var(--red);
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 5px;
+    transform: rotate(235deg);
+    -webkit-transform: rotate(135deg);
+  }
 
 /*Om Nicoline*/
-.om h1{
+.om_nico h1{
     color: var(--red);
     text-align: left;
     font-size: 18px;
-    margin-top: 200px;
-    margin-bottom: 5px;
+    margin-top: -250px;
+    margin-bottom: 20px;
+    padding-left: 150px;
+    
 }
 
-.om h2{
+.om_nico h2{
     color: var(--dark);
     text-align: left;
     font-size: 16px;
-    margin-top: 50px;
     margin-bottom: 5px;
+    padding-left: 150px;
 }
 
-.om p{
+.om_nico p{
     color: var(--dark);
     text-align: left;
-    font-size: 14px;
+    font-size: 12px;
     margin-top: 10px;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
     line-height: 25px;
+    padding-left: 150px;
+    padding-right: 20px;
+}
+.om_nico img{
+    padding-top: 80px;
+}
+
+.om_nico ul{
+    color: var(--dark);
+    text-align: left;
+    font-size: 12px;
+    margin-top: -50px;
+    margin-bottom: 50px;
+    line-height: 25px;
+    padding-left: 200px;
+    padding-right: 20px;
 }
 
 /*Carpany*/
-.carpany h1{
+h1{
     color: var(--red);
     text-align: left;
     font-size: 28px;
-    margin-top: 50px;
+    margin-top: 40px;
     margin-bottom: 5px;
     padding-left: 35px;
     padding-right: 35px;
@@ -331,14 +397,15 @@ button:hover {
 .footer {
     position: absolute;
     width: 100%;
+    top: auto;
     background-color: var(--white);
     color: var(--dark);
     text-align: center;
+    font-size: 12px;
  }
 
-  /* 48em = 768px */
-  
-  @media (min-width: 48em) {
+
+  @media (min-width: 666px) {
     .header li {
       float: left;
     }
@@ -353,4 +420,15 @@ button:hover {
     .header .menu-icon {
       display: none;
     }
+  }
+
+  @media (min-width: 484px) {
+    .om{
+        margin-bottom: 134px;
+    }
+   
+  }
+  @media (max-width: 666px) {
+ 
+   
   }
