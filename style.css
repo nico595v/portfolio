@@ -142,7 +142,7 @@ hr{
   }
   
   .header .menu-btn:checked ~ .menu {
-    max-height: 340px;
+    max-height: 350px;
   }
   
   .header .menu-btn:checked ~ .menu-icon .navicon {
@@ -150,11 +150,11 @@ hr{
   }
   
   .header .menu-btn:checked ~ .menu-icon .navicon:before {
-    transform: rotate(-45deg);
+    transform: rotate(-42deg);
   }
   
   .header .menu-btn:checked ~ .menu-icon .navicon:after {
-    transform: rotate(45deg);
+    transform: rotate(42deg);
   }
   
   .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
@@ -212,6 +212,12 @@ hr{
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
+  }
+  .overblik img{
+    object-fit: cover;
+    object-position: 50% 0;
+    width: 200px;
+    height: 270px;
   }
 
 /*Fotos*/
@@ -373,7 +379,8 @@ ul.breadcrumb {
  }
 
 
-@media (min-width: 666px) {
+@media (min-width: 777px) {
+    /*Header*/
     .header li {
       float: left;
     }
@@ -388,23 +395,58 @@ ul.breadcrumb {
     .header .menu-icon {
       display: none;
     }
+    /*Projekt*/
     .overblik {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
-        align-items: center;
+        justify-content: space-evenly;
     }
     .fotos{
         display: flex;
-        flex-direction: row;
-        width: 100%; 
-    }
-    .fotos div{
-        display: flex;
-        flex-direction: row;
-        width: 100%; 
+        flex-wrap: wrap;
         justify-content: space-around; 
-        align-items: center;
+    }
+ 
+    /*Om Nicoline*/
+    .om_nico h1{
+        font-size: 24px;
+        margin-top: -430px;
+        margin-bottom: 20px;
+        padding-left: 350px;
+        
+    }
+    
+    .om_nico h2{
+        font-size: 16px;
+        margin-bottom: 5px;
+        padding-left: 350px;
+    }
+    
+    .om_nico p{
+        margin-top: 10px;
+        margin-bottom: 50px;
+        line-height: 25px;
+        padding-left: 350px;
+        padding-right: 300px;
+    }
+    .om_nico img{
+        width: 250px;
+        padding-top: 80px;
+    }
+    
+    .om_nico ul{
+        padding-left: 400px;
+        padding-right: 20px;
+    }
+    .carpany {
+        margin-left: 2%;
+        margin-top: 60px;
+    }
+    .carpany video{
+        width: 40%;
+        height: 40%;
+        margin-left: 50%;
+        margin-top: -220px;
     }
 
 }
@@ -413,7 +455,3 @@ ul.breadcrumb {
         margin-bottom: 134px;
     }
   }
-  @media (max-width: 666px) {
-
-    
-}
