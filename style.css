@@ -190,13 +190,16 @@ hr{
     .om{
     margin: 10px;
     padding: 14px 17px;
-    margin-bottom: 16px;
+    margin-bottom: 30px;
 }
 
 /*Projekter*/
 .overblik h1{
     text-align: center;
-    padding-top: 30px;
+    color: var(--red);
+    font-size: 28px;
+    margin-top: 40px;
+    padding-bottom: 20px;
   }
 
 .overblik{
@@ -221,6 +224,10 @@ hr{
   .fotos h1{
     text-align: center;
     padding-top: 30px;
+    color: var(--red);
+    font-size: 28px;
+    margin-top: 40px;
+    padding-bottom: 20px;
   }
 
   .fotos div{
